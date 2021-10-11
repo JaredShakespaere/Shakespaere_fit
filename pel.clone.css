@@ -20,30 +20,95 @@ nav{
     background-color: gold;
     position: sticky;
     height: 48px;
-    width: 100%;
-    
+    width: 100%;  
+    /* padding: 10px;  */
+}
+.nav_div1{
+    width: 30%;
+    height: 48px;
+    display: inline-block; 
+    padding-left: 1.5%;
+    padding-right: 1.5%;
+    padding-top: 7px;
+
+}
+#logo_id{
+    width: 200px;
+    height: 70%;
+    border-radius: 10px;
+    /* align-items: center; */
+    /* padding-top: 7px; */
 }
 
+.nav_div2{
+    width: 30%;
+    height: 100%;
+    display: inline-block;
+    padding-left: 1.5%;
+    padding-right: 1.5%;
+}
 ul {
     display: flex;
     list-style: none;
-    align-items: right;
-    position: relative;
+    height: 48px;
+    width: 100%;
+    padding: 0;
     color: white;
-    vertical-align: baseline;
+    justify-content: center;
+    /* position: inline-block; */
+    /* vertical-align: center; */
+    /* align-items: center; */
 }
 
-li {
-   float: right;
-
+li{
+    margin-right: 30px;
+    text-align: center;
 }
 
-.nav_icons{
-    display: inline-block;
-    justify-content: flex-end;
-    z-index: 2;
-    
+.nav_div3{
+    /* display: inline-block; */
+    width: 30%;
+    height: 48px;
+    padding-left: 1.5%;
+    padding-right: 1.5%;
+    padding-top: 7px;
+    float: right;
 }
+
+.cart-prof-menu{
+    width: 400px;
+    height: 48px;
+    /* float:right; */
+}
+
+#cart_icon{
+    width: 34px;
+    height: 34px;
+    border-radius: 5px;
+    float:right; 
+    margin-right: 15px;
+}
+
+#profile_icon{
+    width: 34px;
+    height: 34px;
+    border-radius: 5px;
+    margin-right: 13px;
+    float:right;
+}
+
+#menu_icon{
+    width: 34px;
+    height: 34px;
+    border-radius: 5px;
+    /* margin-right: 10px; */
+    float:right;
+} 
+
+
+/* #bar{
+    justify-content: space-around;
+} */
 
 
 
@@ -54,36 +119,9 @@ li {
     width: 100%;
 }
 
-#logo_id{
-    width: 200px;
-    height: 34px;
-    border-radius: 5px;
-}
-
-#cart_icon{
-    width: 34px;
-    height: 34px;
-    border-radius: 5px;
-    /* justify-content: ;
-    position:absolute; */
-    /* z-index: 1; */
-}
-
-#profile_icon{
-    width: 34px;
-    height: 34px;
-    border-radius: 5px;
-}
-
-#menu_icon{
-    width: 34px;
-    height: 34px;
-    border-radius: 5px;
-} 
 
 
 
-/* #bar{
-    justify-content: space-around;
-} */
+
+
 
