@@ -1,5 +1,12 @@
 body {
     background-color: #181a1d;
+    background-image: url('./website-icons/pushup.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+
+
 }
     
 header {
@@ -16,16 +23,16 @@ header {
     text-align: center;
 }
 nav{
-    display: inline-block;
+    display: inline-flex;
     background-color: gold;
-    position: sticky;
-    height: 48px;
+    position:static;
+    height: 60px;
     width: 100%;  
     /* padding: 10px;  */
 }
 .nav_div1{
     width: 30%;
-    height: 48px;
+    height: fit-content;
     display: inline-block; 
     padding-left: 1.5%;
     padding-right: 1.5%;
@@ -33,15 +40,15 @@ nav{
 
 }
 #logo_id{
-    width: 200px;
-    height: 70%;
+    width: 100px;
+    height: 100px;
     border-radius: 10px;
     /* align-items: center; */
     /* padding-top: 7px; */
 }
 
 .nav_div2{
-    width: 30%;
+    width: 100%;
     height: 100%;
     display: inline-block;
     padding-left: 1.5%;
@@ -53,11 +60,12 @@ ul {
     height: 48px;
     width: 100%;
     padding: 0;
-    color: white;
+    color: black;
     justify-content: center;
-    /* position: inline-block; */
-    /* vertical-align: center; */
-    /* align-items: center; */
+    flex-direction:  row;
+    /* position: inline-block;
+    vertical-align: center;
+    align-items: center; */
 }
 
 li{
@@ -66,7 +74,7 @@ li{
 }
 
 .nav_div3{
-    /* display: inline-block; */
+    display: inline-block;
     width: 30%;
     height: 48px;
     padding-left: 1.5%;
@@ -112,12 +120,12 @@ li{
 
 
 
-#subheader{
+/* #subheader{
     background-color: rgba(34, 37, 41, 0.85);
     position: sticky;
     height: 48px;
     width: 100%;
-}
+} */
 
 
 
