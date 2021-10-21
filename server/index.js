@@ -4,12 +4,12 @@ const path = require('path')
 const app = express()
 
 app.get('/', function(req, res){
-    res.sendFile(path.join(__dirname, "../index.html"))
+    res.sendFile(path.join(__dirname, "../pel.clone.html"))
 
 })
 
 app.get('/css', (req, res) => {
-    res.sendFile(path.join(__dirname, '../index.css'))
+    res.sendFile(path.join(__dirname, '../pel.clone.css'))
   })
 
   
